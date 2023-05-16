@@ -31,4 +31,14 @@ is.double(vec_1)
 x<-c(1,3,5)
 names(x)<-c("a","b","c")
 
+#Creating lists
+list("a",1L,1.5,TRUE)
+list(list(list(1,3,5)))
 
+#Determining structure of lists
+str(list("a",1L,1.5,TRUE))
+z<-list(list(list(1,3,5)))   # '$' in the output reflects the nested structure of list
+str(z)
+
+#naming lists
+list('chicago'=1,'new york'=2,'los angeles'=3)
